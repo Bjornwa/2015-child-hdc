@@ -1,0 +1,23 @@
+/*
+Theme Name: Twenty Fifteen Child HDC
+Theme URI: https://wordpress.org/themes/twentyfifteen
+Author: Björn Wallin
+Author URI: 
+Description: 2015 child theme for Helsingborg Drumcorps
+Version: 1.0
+Template:     twentyfifteen
+License: Created exclusively for Helsingborg Drumcorps, copyright (2015) Helsingborg Drumcorps
+License URI:
+Tags: 
+Text Domain: twentyfifteen-child-helsingborgdrumcorps
+
+*/
+
+ul {
+	list-style: none;
+}
+
+/*
+.textwidget a {
+  border-bottom: none;
+}*/
