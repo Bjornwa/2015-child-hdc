@@ -21,3 +21,17 @@ ul {
 .textwidget a {
   border-bottom: none;
 }
+
+
+.hentry, .page-header, .page-content {
+    margin: 0;
+}
+
+
+.site-main {
+    padding: 0;
+}
+
+body {
+    background: #ffffff;
+}
