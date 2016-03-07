@@ -58,3 +58,8 @@ margin: 0 0 0 6.1%;
 }
 
 }
+
+/* Turn off annoying header info for the Gmedia Gallery */
+.gmpm_photo_header {
+    display: none;
+}
