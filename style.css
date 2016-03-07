@@ -63,3 +63,10 @@ margin: 0 0 0 6.1%;
 .gmpm_photo_header {
     display: none;
 }
+
+/* Use genericon-info for button */
+.site-title a, .site-description, .secondary-toggle:before {
+    color: #0060C0;
+    content: "\f455";
+    font-size: 32px;
+}
