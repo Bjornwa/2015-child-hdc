@@ -67,6 +67,4 @@ margin: 0 0 0 6.1%;
 /* Use genericon-info for button */
 .site-title a, .site-description, .secondary-toggle:before {
     color: #0060C0 !important;
-    content: "\f455";
-    font-size: 32px;
 }
