@@ -66,5 +66,8 @@ margin: 0 0 0 6.1%;
 
 /* Use genericon-info for button */
 .site-title a, .site-description, .secondary-toggle:before {
-    color: #0060C0 !important;
+    color: #0060C0 !important; 
 }
+
+/* Fix sponsor images */
+.hdc-samarbetspartner {float:left; margin:20px}
