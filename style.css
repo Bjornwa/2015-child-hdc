@@ -92,12 +92,23 @@ h1{
 		font-weight: 700;
 }
 
+/* Add Drumcorps logo in header */
 .site-header{
     background: URL('HBG_Drumcorps_RGB_scale.jpg');
     background-repeat: no-repeat;
     background-size: auto 95%; background-position: 7.6923% 50%
 }
 
+/* Adjust distance between gmpm photo and following text */
 .gmpm_photo_wrap{
 	margin-bottom: 2em!important;
+}
+
+/* Adjust auto-generated calendar text */
+.simcal-default-calendar-list ul.simcal-events {
+    margin: 10px 0 ! important;
+}
+
+.simcal-default-calendar-list .simcal-event-details {
+    font-size: inherit !important;
 }
