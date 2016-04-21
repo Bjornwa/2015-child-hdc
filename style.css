@@ -18,6 +18,7 @@ ul {
 }
 
 
+
 .textwidget a {
   border-bottom: none;
 }
@@ -72,3 +73,8 @@ margin: 0 0 0 6.1%;
 /* Fix sponsor images */
 .hdc-samarbetspartner {float:left; margin:20px}
 .hdc-extra-height-margin {margin-top:30px;}
+
+/* Remove silly underlines for links */
+.entry-content a, .entry-summary a, .page-content a, .comment-content a, .pingback .comment-body > a {
+    border-bottom: none;
+}
