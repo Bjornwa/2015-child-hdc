@@ -28,7 +28,7 @@
 	<a class="skip-link screen-reader-text" href="#content"><?php _e( 'Skip to content', 'twentyfifteen' ); ?></a>
 
 	<div id="sidebar" class="sidebar">
-		<header id="masthead" class="site-header" role="banner" onclick="gotoBaseUrl()" >
+		<header id="masthead" class="site-header" role="banner" onclick="gotoBaseUrl(this, event)" >
 			<div class="site-branding">
 				<?php
 					if ( is_front_page() && is_home() ) : ?>
@@ -49,8 +49,12 @@
 		<?php get_sidebar(); ?>
 	</div><!-- .sidebar -->
 <script type="text/javascript">
-window.gotoBaseUrl=function(){
-	location = <?php echo json_encode(site_url()); ?>;
+window.gotoBaseUrl=function(elmt, event){
+	
+	if(!event.target.matches('.secondary-toggle')){
+		var a=10;
+		// location = <?php echo json_encode(site_url()); ?>;
+	}	
 }
 </script>
 	<div id="content" class="site-content">
