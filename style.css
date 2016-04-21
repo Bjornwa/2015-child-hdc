@@ -97,3 +97,7 @@ h1{
     background-repeat: no-repeat;
     background-size: auto 95%; background-position: 7.6923% 50%
 }
+
+.gmpm_photo_wrap{
+	margin-bottom: 2em!important;
+}
