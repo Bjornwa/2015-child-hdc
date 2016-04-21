@@ -91,3 +91,9 @@ h1{
 		text-align: center;
 		font-weight: 700;
 }
+
+.site-header{
+    background: URL('wp-content/uploads/2015/05/cropped-HBG_Drumcorps_RGB_scale.jpg');
+    background-repeat: no-repeat;
+    background-size: auto 95%; background-position: 7.6923% 50%
+}
