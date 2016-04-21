@@ -23,19 +23,14 @@
 </head>
 
 <body <?php body_class(); ?>>
-<div id="fb-root"></div>
-<script>(function(d, s, id) {
-  var js, fjs = d.getElementsByTagName(s)[0];
-  if (d.getElementById(id)) return;
-  js = d.createElement(s); js.id = id;
-  js.src = "//connect.facebook.net/sv_SE/sdk.js#xfbml=1&version=v2.6&appId=774118346030622";
-  fjs.parentNode.insertBefore(js, fjs);
-}(document, 'script', 'facebook-jssdk'));</script>
+
 <div id="page" class="hfeed site">
 	<a class="skip-link screen-reader-text" href="#content"><?php _e( 'Skip to content', 'twentyfifteen' ); ?></a>
 
 	<div id="sidebar" class="sidebar">
-		<header id="masthead" class="site-header" role="banner">
+		<header id="masthead" class="site-header" role="banner"
+		onclick="location=<?php echo json_encode(base_url()); ?>"
+		>
 			<div class="site-branding">
 				<?php
 					if ( is_front_page() && is_home() ) : ?>
