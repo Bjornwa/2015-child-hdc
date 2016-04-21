@@ -29,7 +29,7 @@
 
 	<div id="sidebar" class="sidebar">
 		<header id="masthead" class="site-header" role="banner"
-		onclick="location=<?php echo json_encode(base_url()); ?>"
+		onclick="location=<?php echo json_encode(site_url()); ?>"
 		>
 			<div class="site-branding">
 				<?php
