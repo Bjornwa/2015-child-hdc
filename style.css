@@ -117,3 +117,9 @@ h1{
 @media all and (max-width:955px){
 	#single-logo{display:none}
 }
+
+/* Make "Ledare" display without too large margins+padding above. */
+article.hentry {
+	margin-top:0!important;
+	padding-top:1em!important;
+}
