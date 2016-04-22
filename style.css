@@ -80,16 +80,15 @@ margin: 0 0 0 6.1%;
 }
 
 /* Large headings with Jaldi */
-h1,h2,h3{
-	    color: #0059a5;
-    font-family: jaldi;
-    
+h1, h2, h3{
+	color: #0059a5!important;
+    font-family: jaldi!important;    
 }
 
 h1{
-	    font-size: 3em;
-		text-align: center;
-		font-weight: 700;
+	font-size: 3em!important;
+	text-align: center!important;
+	font-weight: 700!important;
 }
 
 /* Add Drumcorps logo in header */
