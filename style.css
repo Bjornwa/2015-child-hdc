@@ -123,3 +123,8 @@ article.hentry {
 	margin-top:0!important;
 	padding-top:1em!important;
 }
+
+/* All links in DC-blue colour */
+a{
+	color:#0059a5!important;
+}
