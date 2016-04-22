@@ -6,3 +6,19 @@ function twenty_fifteen_child_enqueue_styles() {
 }
 
 add_filter('widget_text', 'do_shortcode');
+
+add_filter('gettext', 'remove_classifier_words', 20, 3);
+function remove_classifier_words( $translated_text, $untranslated_text, $domain ) {
+
+    $custom_field_text = 'Tag: %s';
+    if ( !is_admin() && $untranslated_text === $custom_field_text ) {
+        return '%s';
+    }
+
+    $custom_field_text = 'Category: %s';
+    if ( !is_admin() && $untranslated_text === $custom_field_text ) {
+        return '%s';
+    }
+
+    return $translated_text;
+}
