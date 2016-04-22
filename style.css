@@ -112,3 +112,8 @@ h1{
 .simcal-default-calendar-list .simcal-event-details {
     font-size: inherit !important;
 }
+
+/* Hide logo image when header logo is shown */
+@media all and (max-width:955px){
+	#single-logo{display:none}
+}

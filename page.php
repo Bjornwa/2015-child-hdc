@@ -15,6 +15,9 @@ get_header(); ?>
 
 	<div id="primary" class="content-area">
 		<main id="main" class="site-main" role="main">
+		<img style="width: 12%;position: absolute;z-index: 2;top: 1em;left: 1.2em;" 
+		src="wp-content/uploads/2015/05/cropped-HBG_Drumcorps_RGB_scale-300x300.jpg" 
+		id="single-logo">
 
 		<?php
 		// Start the loop.
